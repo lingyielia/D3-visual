@@ -12,7 +12,6 @@ def createChart(data, zipcode):
         maxCount = 1
         data = pd.DataFrame([{"cuisine":"", 'perZip'+zipcode:0}])
 
-
     return alt.Chart(data) \
               .mark_bar(stroke="Black") \
               .encode(
@@ -24,7 +23,6 @@ def createChart(data, zipcode):
               ).properties(
                 selection = highlight_selection,
               )
-
 
 def loadData():
     import urllib.request, json
