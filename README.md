@@ -6,4 +6,4 @@
 
 ### Altair, React, Flask
 * Customer Review ==> [Webpage](http://eliaelia.pythonanywhere.com/)
-* NYC Cuisine Distribution Barchart ==> [Webpage](http://lingyielia01.pythonanywhere.com/), [Code](https://bl.ocks.org/lingyielia)
+* NYC Cuisine Distribution Barchart ==> [Webpage](http://lingyielia01.pythonanywhere.com/), [Code](https://github.com/lingyielia/D3-visual/tree/master/CuisinebyZip)
