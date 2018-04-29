@@ -33,8 +33,7 @@ def loadData():
 
     df = pd.io.json.json_normalize(cuisines)
     columnchange = df.columns[1:-1]
-    columnchange = ["".join(element.split(".")) for element in columnchange]
-    df.columns = ["cuisine"] + columnchange + ['total']
+    df.columns = ["cuisine"] + ["".join(element.split(".")) for element in columnchange] + ['total']
 
     return df
 
