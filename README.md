@@ -7,3 +7,6 @@
 ### Altair, React, Flask
 * Customer Review ==> [Webpage](http://eliaelia.pythonanywhere.com/)
 * NYC Cuisine Distribution Barchart ==> [Webpage](http://lingyielia01.pythonanywhere.com/), [Code](https://github.com/lingyielia/D3-visual/tree/master/CuisinebyZip)
+
+### C3.js, Leaflet, React.js, Flask
+* NYC Gentrification vs. 311 Complaints ==> [Webpage](https://gentrification311.herokuapp.com/), [Code](https://github.com/YukunVVan/DataViz-Project)
